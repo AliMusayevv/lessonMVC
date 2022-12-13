@@ -1,0 +1,11 @@
+﻿.h1
+{
+    color:red;
+    text-align:center;
+    position:absolute;
+    top:50%
+}
+body
+{
+    background-color:red;
+}

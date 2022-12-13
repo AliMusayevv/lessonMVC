@@ -1,0 +1,22 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Layout</title>
+    <link href="~/Views/Css/style.css" rel="stylesheet" />
+</head>
+<body>
+   @Html.Partial("_Header")
+    <div> 
+      @RenderBody()
+    </div>
+    @Html.Partial("_Footer")
+</body>
+
+</html>

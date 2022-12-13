@@ -1,0 +1,31 @@
+﻿@model sMVC.Models.Person
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Views/Css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        @{ var a1 = ViewBag.Message;
+            var a2 = ViewBag.Message1;
+            var a3 = ViewBag.Message2;
+            var a4 = ViewBag.Message3;
+            var a5 = ViewBag.Message4;
+
+        }
+        <h1 style="color:red;text-align:center;">@a1.ID @a1.AD</h1>
+        <h1 style="color:red;text-align:center;">@a2.ID @a2.AD</h1>
+        <h1 style="color:red;text-align:center;" >@a3.ID @a3.AD</h1>
+        <h1 style="color:red;text-align:center;">@a4.ID @a4.AD</h1>
+        <h1 style="color:red;text-align:center;" >@a5.ID @a5.AD</h1>
+
+    </div>
+</body>
+</html>
